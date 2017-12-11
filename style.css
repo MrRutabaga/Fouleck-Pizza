@@ -1,9 +1,22 @@
-a
-{
-  text-decoration : none;
+@font-face {
+    font-family: 'Knight-Brush';
+    src: url('fonts/Knight-Brush.otf');
 }
 
-h1
-{
-  text-decoration-color : blue;
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    position: absolute;
+    font-family: Knight-Brush;
+    font-size: 80px;
+    margin: 0px;
+    border-style: solid;
+    border-width: 10px;
+    border-left: 0px;
+    padding-right: 45px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: 0px;
 }

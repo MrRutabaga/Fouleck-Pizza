@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Knight-Brush';
+    src: url('fonts/Knight-Brush.otf');
+}
+
+@font-face {
+    font-family: 'MiraculousChristmas';
+    src: url('fonts/MiraculousChristmas.ttf');
+}
+
+body {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+}
+
+header {
+    background-image: url("img/banniere.jpg");
+}
+
+h1 {
+    display: inline-block;
+    margin: 0px;
+    left: 0px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: green;
+    border-style: solid;
+    border-width: 6px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom-right-radius: 60px;
+    padding: 10px 20px 0px 3px;
+    font-size: 80px;
+    font-family: MiraculousChristmas;
+}
+
+#search {
+    display: inline;
+    position: relative;
+    bottom: 15px;
+    left: 30px;
+}
+
+#search input {
+    padding: 10px 15px;
+}
+
+#search a {
+    position: relative;
+    right: 4.5px;
+    padding: 10px 12px;
+    color: white;
+    background-color: #ff7e00;
+    margin: 0;
+    transition: 0.5s;
+}
+
+#search a:hover {
+    background-color: #e26f00;
+}
+
+#nav {
+    background-color: #6198A7;
+    text-align: center;
+}
+
+header li {
+    margin-top: 30px;
+    padding: 5px 0px;
+    display: block;
+    border-style: solid;
+    border-width: 1px 0px;
+    list-style: none;
+    top: 57px;
+}
+
+header ul {
+    display: inline;
+    padding: 0px;
+}
+
+#nav a {
+    padding: 5px 45px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav a:hover {
+    background-color: lightblue;
+    transition: 0.3s;
+}

@@ -68,7 +68,7 @@ h1 a {
     text-align: center;
 }
 
-header li {
+#nav li {
     margin-top: 30px;
     padding: 5px 0px;
     display: block;
@@ -78,7 +78,7 @@ header li {
     top: 57px;
 }
 
-header ul {
+#nav ul {
     display: inline;
     padding: 0px;
 }

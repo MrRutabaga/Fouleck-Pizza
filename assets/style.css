@@ -19,30 +19,31 @@ header {
     background-image: url("img/banniere.jpg");
 }
 
-h1 {
-    display: inline;
+#titre {
     margin: 0px;
     left: 0px;
-    color: #e26f00;
+    text-decoration: none;
 }
 
-h1 a {
-    text-decoration: none;
-    border-style: solid;
-    border-width: 6px;
-    border-left: 0px;
-    border-top: 0px;
-    border-bottom-right-radius: 60px;
-    padding: 5px 20px 0px 15px;
+#titre h1 {
+    display: inline;
+    position: relative;
+    top: 8px;
+    left: 10px;
     color: #e26f00;
     font-size: 80px;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     font-family: MiraculousChristmas;
+}
+
+#titre img {
+    float: left;
 }
 
 #search {
     display: inline;
     position: relative;
-    bottom: 15px;
+    bottom: 10px;
     left: 30px;
 }
 

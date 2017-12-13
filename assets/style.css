@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Knight-Brush';
-    src: url('fonts/Knight-Brush.otf');
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa.ttf');
 }
 
 @font-face {
@@ -12,6 +12,8 @@ body {
     background-image: url("img/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: 0 -17%;
+    font-family: Comfortaa;
     margin: 0px;
 }
 
@@ -65,12 +67,49 @@ header {
     background-color: #e26f00;
 }
 
-#nav {
+header aside {
+    display: inline;
+}
+
+header #logoUser {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-shadow: -1px 0 #e26f00, 0 1px #e26f00, 1px 0 #e26f00, 0 -1px #e26f00;
+}
+
+header #user {
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    background-color: white;
+    top: 5px;
+    right: 10px;
+    width: 36px;
+    height: 39px;
+    opacity: 0;
+    transition: 1s;
+}
+
+header #user:hover {
+    top: 7px;
+    right: 20px;
+    width: 300px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+header #user p {
+    display: inline;
+    text-align: center;
+}
+
+nav {
     background-color: #6198A7;
     text-align: center;
 }
 
-#nav li {
+nav li {
     margin-top: 30px;
     padding: 5px 0px;
     display: block;
@@ -80,18 +119,18 @@ header {
     top: 57px;
 }
 
-#nav ul {
+nav ul {
     display: inline;
     padding: 0px;
 }
 
-#nav a {
+nav a {
     padding: 5px 45px;
     text-decoration: none;
     color: black;
 }
 
-#nav a:hover {
+nav a:hover {
     background-color: lightblue;
     transition: 0.3s;
 }

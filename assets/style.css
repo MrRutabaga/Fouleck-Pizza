@@ -63,12 +63,8 @@ header {
     transition: 0.5s;
 }
 
-#search a:hover {
+#search a:hover, header #user .button:hover {
     background-color: #e26f00;
-}
-
-header aside {
-    display: inline;
 }
 
 header #logoUser {
@@ -80,28 +76,72 @@ header #logoUser {
 
 header #user {
     position: absolute;
-    border-style: solid;
-    border-width: 3px;
-    background-color: white;
-    top: 5px;
-    right: 10px;
-    width: 36px;
-    height: 39px;
-    opacity: 0;
-    transition: 1s;
-}
-
-header #user:hover {
-    top: 7px;
+    display: inline;
+    top: 14px;
     right: 20px;
     width: 300px;
-    height: 100px;
-    opacity: 0.9;
+    height: 95px;
+    transition: 1s;
+    padding: 5px;
 }
 
-header #user p {
-    display: inline;
-    text-align: center;
+header #user form {
+    display: inline-block;
+}
+
+header #user label {
+    float: left;
+    color: #e26f00;
+    width: 20px;
+}
+
+header #user .text {
+    display: block;
+    margin-bottom: 4px;
+}
+
+header #user .button {
+    position: relative;
+    left: 50px;
+    border-radius: 12px 0;
+	background: #ff7e00;
+	border: none;
+	color: #fff;
+	font: bold 12px Verdana;
+	padding: 6px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+header #user .button:hover {
+    cursor: pointer;
+}
+
+header #user .button:active {
+    top: 1px;
+}
+
+header #user a {
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    margin-right: 10px;
+    color: #ff7e00;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    transition: 0.5s;
+}
+
+header #user a:hover {
+    color: #e26f00;
+}
+
+header #user a img {
+    border-radius: 20%;
+}
+
+header #user .panier {
+    bottom: 50px;
+    left: 222px;
 }
 
 nav {

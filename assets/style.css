@@ -174,3 +174,20 @@ nav a:hover {
     background-color: lightblue;
     transition: 0.3s;
 }
+
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 5px;
+}
+
+footer li {
+    display: inline;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black
+}

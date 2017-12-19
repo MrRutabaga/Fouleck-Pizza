@@ -8,6 +8,11 @@
     padding: 7px 20px;
 }
 
+#corps article a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #corps aside {
     position: relative;
     float: right;

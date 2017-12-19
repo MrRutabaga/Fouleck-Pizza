@@ -47,6 +47,7 @@ header {
     position: relative;
     right: 90px;
     top: 10px;
+    height: auto;
 }
 
 #search input {
@@ -124,9 +125,13 @@ header #user .button:active {
     top: 1px;
 }
 
+header #user #connect {
+    display: none;
+}
+
 header #user > a {
     display: inline;
-    margin-right: 20px;
+    margin-right: 15px;
     color: #ff7e00;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     transition: 0.5s;
@@ -136,17 +141,12 @@ header #user > a:hover {
     color: #e26f00;
 }
 
-header #user .panier {
-    bottom: 50px;
-    left: 222px;
-}
-
-nav {
+header nav {
     background-color: #6198A7;
     text-align: center;
 }
 
-nav li {
+header nav li {
     margin-top: 30px;
     padding: 5px 0px;
     display: block;
@@ -156,18 +156,18 @@ nav li {
     top: 57px;
 }
 
-nav ul {
+header nav ul {
     display: inline;
     padding: 0px;
 }
 
-nav a {
+header nav a {
     padding: 5px 45px;
     text-decoration: none;
     color: black;
 }
 
-nav a:hover {
+header nav a:hover {
     background-color: lightblue;
     transition: 0.3s;
 }
@@ -177,6 +177,7 @@ footer {
     width: 100%;
     text-align: center;
     bottom: 5px;
+    z-index: -1;
 }
 
 footer li {
@@ -205,5 +206,40 @@ footer img {
         position: relative;
         left: 150px;
         top: 0;
+    }
+}
+
+@media screen and (max-height: 240px) {
+    #search {
+        display: inline;
+        margin-left: 120px;
+        top: 0;
+    }
+
+    #search input {
+        width: 300px;
+    }
+
+    header #user #connect {
+        display: inline;
+    }
+
+    header #user form {
+        display: none;
+    }
+
+    header #user {
+        top: auto;
+    }
+
+    header #user > a {
+        position: relative;
+        top: 10px;
+    }
+}
+
+@media screen and (max-height: 240px) and (max-width: 1080px) {
+    #search {
+        display: none;
     }
 }

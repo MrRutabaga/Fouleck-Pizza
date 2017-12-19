@@ -11,8 +11,9 @@
 body {
     background-image: url("img/background.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0 -17%;
+    background-size: 1600px;
+    background-position: right top;
+    background-attachment: fixed;
     font-family: Comfortaa;
     margin: 0px;
 }
@@ -170,6 +171,27 @@ nav a:hover {
     background-color: lightblue;
     transition: 0.3s;
 }
+
+/* CORPS */
+
+#corps article {
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 100, 100, 0.7);
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+
+#corps h2 {
+    text-align: center;
+}
+
+#corps strong {
+    font-weight: bold;
+}
+
+/* FOOTER */
 
 footer {
     position: fixed;

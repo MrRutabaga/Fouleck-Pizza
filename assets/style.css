@@ -191,4 +191,6 @@ footer a {
 
 footer img {
     border-radius: 20%;
+    position: relative;
+    top: 15px;
 }

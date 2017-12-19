@@ -256,3 +256,10 @@ footer img {
         top: 0;
     }
 }
+
+@media screen and (max-width: 660px) {
+    #corps article {
+        width: auto;
+        margin-right: 10px;
+      }
+}

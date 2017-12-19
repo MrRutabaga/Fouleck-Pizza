@@ -79,7 +79,7 @@ header #user {
     position: absolute;
     display: inline;
     top: 14px;
-    right: 20px;
+    right: 1%;
     width: 300px;
     height: 95px;
     transition: 1s;
@@ -124,9 +124,9 @@ header #user .button:active {
 
 header #user a {
     position: relative;
-    bottom: 30px;
-    left: 20px;
-    margin-right: 10px;
+    bottom: 35px;
+    left: 25px;
+    margin-right: 20px;
     color: #ff7e00;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     transition: 0.5s;

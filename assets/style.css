@@ -8,6 +8,10 @@
     src: url('fonts/MiraculousChristmas.ttf');
 }
 
+html {
+    overflow-y: hidden;
+}
+
 body {
     background-image: url("img/background.jpg");
     background-repeat: no-repeat;
@@ -181,6 +185,30 @@ nav a:hover {
     background-color: rgba(255, 100, 100, 0.7);
     border-radius: 20px;
     padding: 7px 20px;
+}
+
+#corps aside {
+    position: relative;
+    bottom: 340px;
+    float: right;
+    margin-right: 100px;
+}
+
+#corps aside li {
+    list-style: none;
+    display: inline-block;
+}
+
+#corps aside img {
+    display: block;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+#corps aside a {
+    text-decoration: none;
+    color: #e26f00;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #corps h2 {

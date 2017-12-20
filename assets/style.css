@@ -31,6 +31,7 @@ header {
 #titre h1 {
     display: inline;
     position: relative;
+    margin-bottom: 0;
     top: 8px;
     left: 10px;
     color: #e26f00;
@@ -48,6 +49,7 @@ header {
     right: 90px;
     top: 10px;
     height: auto;
+    width: auto;
 }
 
 #search input {
@@ -67,13 +69,6 @@ header {
 
 #search a:hover, header #user .button:hover {
     background-color: #e26f00;
-}
-
-header #logoUser {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    text-shadow: -1px 0 #e26f00, 0 1px #e26f00, 1px 0 #e26f00, 0 -1px #e26f00;
 }
 
 header #user {
@@ -177,7 +172,7 @@ footer {
     width: 100%;
     text-align: center;
     bottom: 5px;
-    z-index: -1;
+    z-index: 2;
 }
 
 footer li {
@@ -212,8 +207,9 @@ footer img {
 @media screen and (max-height: 240px) {
     #search {
         display: inline;
-        margin-left: 120px;
         top: 0;
+        right: 0;
+        margin-left: 20px;
     }
 
     #search input {

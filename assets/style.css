@@ -52,15 +52,19 @@ header {
     width: 430px;
     padding: 10px 15px;
     transition: 0.5s;
+    border: solid;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #search a {
     position: relative;
     right: 6px;
-    padding: 10px 12px;
+    padding: 9px 12px;
     color: white;
     background-color: #ff7e00;
     margin: 0;
+    border-radius: 0px 10px 10px 0px;
     transition: 0.5s;
 }
 

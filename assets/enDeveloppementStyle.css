@@ -1,0 +1,9 @@
+article {
+  display: inline-block;
+  width: 40%  ;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgba(255, 100, 100, 0.7);
+  border-radius: 20px;
+  padding: 7px 20px;
+}

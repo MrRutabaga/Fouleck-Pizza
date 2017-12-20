@@ -168,6 +168,23 @@ header nav .text a:hover {
     transition: 0.3s;
 }
 
+#corps {
+    text-align: center;
+}
+
+#corps .texte {
+    display: inline-block;
+    width: auto;
+    margin: 10px 20px;
+    background-color: rgba(255, 100, 100, 0.7);
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+
+#corps strong {
+    font-weight: bold;
+}
+
 footer {
     position: fixed;
     width: 100%;

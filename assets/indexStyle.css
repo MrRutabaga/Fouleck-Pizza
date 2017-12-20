@@ -1,7 +1,7 @@
 #bienvenue {
     display: inline-block;
-    width: 40%;
-    margin: 15px;
+    width: auto;
+    margin: 10px 20px;
     background-color: rgba(255, 100, 100, 0.7);
     border-radius: 20px;
     padding: 7px 20px;

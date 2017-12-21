@@ -1,5 +1,5 @@
 #corps .texte {
-    width: auto;
+    width: 600px;
 }
 
 #corps article a {
@@ -39,7 +39,7 @@
 }
 
 @media screen and (max-width: 1320px) {
-    #corps article {
+    #corps .texte {
         width: auto;
         margin-right: 10px;
     }

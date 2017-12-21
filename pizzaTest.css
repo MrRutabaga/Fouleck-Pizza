@@ -1,12 +1,11 @@
 /*general styles*/
-
-html {
-    box-sizing: border-box;
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('assets/fonts/Comfortaa.ttf');
 }
 
 body {
-    padding: 3em;
-    background-color: #ccc;
+    font-family: Comfortaa;
 }
 
 li {
@@ -17,25 +16,50 @@ ul {
     padding: 0;
 }
 
+li h3 {
+    position: absolute;
+    display: inline;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+li p {
+    position: absolute;
+    display: inline;
+    font-size: 20px;
+    margin-left: 380px;
+    width: 200px;
+    border: solid 1px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 20px black;
+    padding: 5px;
+}
+
+li p .petit {
+    font-size: 15px;
+    margin-left: 2px;
+}
 
 /*slideshow styles*/
 
 .slideshow {
   width: 625px;
-  margin: 0 auto;
   overflow: hidden;
-  border: solid 1px black;
+  border: outset 4px #008080;
 }
 
 .slideshow-container {
   width: 3750px;
   height: auto;
   font-size: 0;
-  transition: 1s ease;
 }
 
 .slideshow-container:hover {
-  animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 img {
@@ -46,15 +70,8 @@ img {
   text-align: center;
 }
 
-
-p {
-  position: relative;
-  top: -45%;
-  padding: 5px;
-}
-
 .slide {
-  animation: slide 28.5s ease infinite;
+  animation: slide 20s ease infinite;
 }
 
 @keyframes slide {
@@ -106,7 +123,7 @@ p {
     transform: translateX(-83%);
   }
 
-  99% {
+  98% {
     transform: translateX(-83%);
   }
 }

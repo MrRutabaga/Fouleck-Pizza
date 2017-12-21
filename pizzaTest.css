@@ -1,8 +1,21 @@
 /*general styles*/
 
-body{padding: 3em;background-color: #ccc;}
-html {box-sizing: border-box;}
-*, *:before, *:after {box-sizing: inherit;}
+html {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3em;
+    background-color: #ccc;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    padding: 0;
+}
 
 
 /*slideshow styles*/
@@ -11,31 +24,26 @@ html {box-sizing: border-box;}
   width: 625px;
   margin: 0 auto;
   overflow: hidden;
-  border: solid 1px white;
+  border: solid 1px black;
 }
 
 .slideshow-container {
-  width: 2500px;
+  width: 3750px;
+  height: auto;
   font-size: 0;
   transition: 1s ease;
-  height: 225px;
 }
 
 .slideshow-container:hover {
   animation-play-state: paused;
 }
 
-img, .text-container {
+img {
   width: 625px;
   height: auto;
   display: inline-block;
   font-size: 16px;
   text-align: center;
-}
-
-.text-container {
-  height: 225px;
-  position: relative;
 }
 
 
@@ -46,7 +54,7 @@ p {
 }
 
 .slide {
-  animation: slide 24s ease infinite;
+  animation: slide 28.5s ease infinite;
 }
 
 @keyframes slide {
@@ -54,44 +62,51 @@ p {
     transform: translateX(0%);
   }
 
-  12.5% {
+  8.3% {
     transform: translateX(0%);
   }
 
-  25% {
-    transform: translateX(-25%);
+  16.6% {
+    transform: translateX(-16.6%);
   }
 
-  37.5% {
-    transform: translateX(-25%);
+  24.9% {
+    transform: translateX(-16.6%);
   }
 
-  50% {
-    transform: translateX(-50%);
+  33.2% {
+    transform: translateX(-33.2%);
   }
 
-  62.5% {
-    transform: translateX(-50%);
+  41.5% {
+    transform: translateX(-33.2%);
   }
 
-  75% {
-    transform: translateX(-75%);
+  49.8% {
+    transform: translateX(-49.8%);
   }
 
-  87.5% {
-    transform: translateX(-75%);
+  58.1% {
+    transform: translateX(-49.8%);
+  }
+
+  66.4% {
+    transform: translateX(-66.4%);
+  }
+
+  74.7% {
+    transform: translateX(-66.4%);
+  }
+
+  83% {
+    transform: translateX(-83%);
+  }
+
+  91.3% {
+    transform: translateX(-83%);
   }
 
   99% {
-    transform: translateX(-75%);
+    transform: translateX(-83%);
   }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.p {
-  margin-top: 140px;
-  text-align: center;
 }

@@ -16,6 +16,7 @@ body {
     background-attachment: fixed;
     font-family: Comfortaa;
     margin: 0;
+    margin-bottom: 50px;
 }
 
 header {
@@ -199,6 +200,12 @@ header nav .text a:hover {
 
 #corps em {
     font-weight: bold;
+}
+
+#corps a {
+    font-style: italic;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 footer {

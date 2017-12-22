@@ -1,3 +1,23 @@
+#corps #actualités {
+    display: inline-block;
+    width: 50vw;
+}
+
+#actualités li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#actualités ul {
+    padding: 0;
+}
+
+#actualités .img {
+    display: block;
+    word-spacing: 30px;
+    margin: 5px 0px;
+}
+
 .slideshow ul {
     padding: 0;
 }

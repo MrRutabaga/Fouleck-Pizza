@@ -187,6 +187,17 @@ header nav .text a:hover {
 
 #corps strong {
     font-weight: bold;
+    font-family: MiraculousChristmas;
+    font-size: larger;
+}
+
+#corps .petit {
+    font-size: xx-small;
+    margin-left: 2px;
+}
+
+#corps em {
+    font-weight: bold;
 }
 
 footer {

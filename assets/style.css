@@ -51,7 +51,7 @@ header {
 
 #search input {
     width: 430px;
-    padding: 10px 15px;
+    padding: 9px 15px;
     transition: 0.5s;
     border: solid;
     border: none;
@@ -61,11 +61,9 @@ header {
 #search a {
     position: relative;
     right: 6px;
-    top: 1px;
-    padding: 9px 12px;
+    padding: 8.2px 12px;
     color: white;
     background-color: #ff7e00;
-    margin: 0;
     border-radius: 0px 10px 10px 0px;
     transition: 0.5s;
 }
@@ -142,6 +140,7 @@ header #user > a:hover {
 header nav {
     background-color: #6198A7;
     text-align: center;
+    position: relative;
 }
 
 header nav ul {
@@ -298,7 +297,7 @@ footer img {
     }
 
     #search a {
-        padding: 7px 5vw;
+        padding: 6.2px 5vw;
     }
 
     #top aside {

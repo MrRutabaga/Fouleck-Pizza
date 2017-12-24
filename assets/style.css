@@ -16,10 +16,15 @@ body {
     background-attachment: fixed;
     font-family: Comfortaa;
     margin: 0;
+    margin-bottom: 60px;
 }
 
 header {
     background-image: url("img/banniere_trop_styley.jpg");
+}
+
+header #top {
+    margin-left: 10px;
 }
 
 #titre {
@@ -50,8 +55,7 @@ header {
 
 #search input {
     width: 430px;
-    padding: 10px 15px;
-    transition: 0.5s;
+    padding: 9px 15px;
     border: solid;
     border: none;
     border-radius: 10px 0px 0px 10px;
@@ -60,13 +64,10 @@ header {
 #search a {
     position: relative;
     right: 6px;
-    top: 1px;
-    padding: 9px 12px;
+    padding: 8.2px 12px;
     color: white;
     background-color: #ff7e00;
-    margin: 0;
     border-radius: 0px 10px 10px 0px;
-    transition: 0.5s;
 }
 
 #search a:hover, header #user .button:hover {
@@ -141,6 +142,7 @@ header #user > a:hover {
 header nav {
     background-color: #6198A7;
     text-align: center;
+    position: relative;
 }
 
 header nav ul {
@@ -175,12 +177,13 @@ header nav .text a:hover {
 
 #corps {
     text-align: center;
+    margin: 0px 15px;
 }
 
 #corps .texte {
     display: inline-block;
     width: auto;
-    margin: 10px 20px;
+    margin-top: 15px;
     background-color: rgba(255, 100, 100, 0.7);
     border-radius: 20px;
     padding: 7px 20px;
@@ -188,6 +191,23 @@ header nav .text a:hover {
 
 #corps strong {
     font-weight: bold;
+    font-family: MiraculousChristmas;
+    font-size: larger;
+}
+
+#corps .petit {
+    font-size: xx-small;
+    margin-left: 2px;
+}
+
+#corps em {
+    font-weight: bold;
+}
+
+#corps a {
+    font-style: italic;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 footer {
@@ -222,7 +242,8 @@ footer img {
     header #top {
         position: relative;
         text-align: center;
-        left: 0%;
+        left: 0;
+        margin-left: 0;
     }
 
     header #search {
@@ -257,7 +278,8 @@ footer img {
 
 @media screen and (max-width: 555px) {
     body {
-        background-size: 1000px;
+        background-size: 1100px;
+        margin-bottom: 25px;
     }
 
     #titre h1 {
@@ -280,7 +302,7 @@ footer img {
     }
 
     #search a {
-        padding: 7px 5vw;
+        padding: 6.2px 5vw;
     }
 
     #top aside {

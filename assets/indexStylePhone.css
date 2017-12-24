@@ -1,0 +1,19 @@
+.slideshow-container > li h4 {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+}
+
+.slideshow-container:hover > li h4 {
+    opacity: 0;
+}
+
+.slideshow-container > li p, .slideshow-container > li .ingredients {
+    display: none;
+}
+
+.slideshow-container:hover {
+    animation-play-state: running;
+}

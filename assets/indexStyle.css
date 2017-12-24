@@ -63,8 +63,24 @@
     opacity: 1;
     text-align: left;
     padding-left: 25px;
-    width: 4%;
     transition: 0.8s;
+    font-size: auto;
+}
+
+.slideshow-container > li #ingredients1, .slideshow-container > li #ingredients3, .slideshow-container > li #ingredients5 {
+    width: 4%;
+}
+
+.slideshow-container > li #ingredients2 {
+    width: 5.8%;
+}
+
+.slideshow-container > li #ingredients4 {
+    width: 5.3%;
+}
+
+.slideshow-container > li #ingredients6 {
+    width: 4.8%;
 }
 
 .slideshow-container > li h4 {

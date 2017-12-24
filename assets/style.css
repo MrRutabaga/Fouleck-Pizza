@@ -16,11 +16,15 @@ body {
     background-attachment: fixed;
     font-family: Comfortaa;
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 header {
     background-image: url("img/banniere.jpg");
+}
+
+header #top {
+    margin-left: 10px;
 }
 
 #titre {
@@ -52,7 +56,6 @@ header {
 #search input {
     width: 430px;
     padding: 9px 15px;
-    transition: 0.5s;
     border: solid;
     border: none;
     border-radius: 10px 0px 0px 10px;
@@ -65,7 +68,6 @@ header {
     color: white;
     background-color: #ff7e00;
     border-radius: 0px 10px 10px 0px;
-    transition: 0.5s;
 }
 
 #search a:hover, header #user .button:hover {
@@ -175,12 +177,13 @@ header nav .text a:hover {
 
 #corps {
     text-align: center;
+    margin: 0px 15px;
 }
 
 #corps .texte {
     display: inline-block;
     width: auto;
-    margin: 10px 20px;
+    margin-top: 15px;
     background-color: rgba(255, 100, 100, 0.7);
     border-radius: 20px;
     padding: 7px 20px;
@@ -239,7 +242,8 @@ footer img {
     header #top {
         position: relative;
         text-align: center;
-        left: 0%;
+        left: 0;
+        margin-left: 0;
     }
 
     header #search {
@@ -274,7 +278,8 @@ footer img {
 
 @media screen and (max-width: 555px) {
     body {
-        background-size: 1000px;
+        background-size: 1100px;
+        margin-bottom: 25px;
     }
 
     #titre h1 {

@@ -1,6 +1,7 @@
 #corps #actualités {
-    display: inline-block;
-    width: 50vw;
+    display: block;
+    width: auto;
+    margin-right: 680px;
 }
 
 #actualités li {
@@ -14,8 +15,12 @@
 
 #actualités .img {
     display: block;
-    word-spacing: 30px;
+    word-spacing: 10px;
     margin: 5px 0px;
+}
+
+#actualités img {
+    width: 40%;
 }
 
 .slideshow ul {
@@ -52,6 +57,16 @@
     color: white;
 }
 
+.slideshow-container > li .ingredients {
+    margin-left: 20px;
+    bottom: 100%;
+    opacity: 1;
+    text-align: left;
+    padding-left: 25px;
+    width: 4%;
+    transition: 0.8s;
+}
+
 .slideshow-container > li h4 {
     position: absolute;
     display: inline;
@@ -68,22 +83,20 @@
     box-shadow: 0px 0px 20px #AB0F00;
 }
 
-.slideshow-container > li .ingredients {
-    margin-left: 20px;
-    bottom: 350px;
-    opacity: 1;
-    text-align: left;
-    padding-left: 25px;
-    width: 150px;
-    transition: 0.8s;
-}
-
 .slideshow-container:hover > li .ingredients {
     bottom: 20px;
 }
 
 .slideshow-container > li .ingredients li {
     margin-bottom: 6px;
+}
+
+
+.slideshow img {
+    width: 16.66%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
 }
 
 .slideshow-container:hover > li p {
@@ -97,51 +110,58 @@
 /*slideshow styles*/
 
 .slideshow {
-  width: 625px;
-  border: solid 4px #AB0F00;
-  background: url("img/fond_slider.jpg");
-  background-size: 625px;
-  float: right;
-  margin-top: 10px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  overflow: hidden;
+    width: 625px;
+    border: solid 4px #AB0F00;
+    background: url("img/fond_slider.jpg");
+    background-size: 100%;
+    float: right;
+    margin: 20px 0px;
+    overflow: hidden;
 }
 
 .slideshow-container {
-  width: 3750px;
-  height: auto;
-  font-size: 0;
+    width: 600%;
+    height: auto;
+    font-size: 0;
 }
 
 .slideshow-container:hover {
     animation-play-state: paused;
 }
 
-.slideshow img {
-  width: 625px;
-  height: auto;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-}
-
 .slide {
-  animation: slide 40s ease infinite;
+    animation: slide 40s ease infinite;
 }
 
 @keyframes slide {
-  0% {transform: translateX(0%);}
-  8.3% {transform: translateX(0%);}
-  16.6% {transform: translateX(-16.6%);}
-  24.9% {transform: translateX(-16.6%);}
-  33.2% {transform: translateX(-33.2%);}
-  41.5% {transform: translateX(-33.2%);}
-  49.8% {transform: translateX(-49.8%);}
-  58.1% {transform: translateX(-49.8%);}
-  66.4% {transform: translateX(-66.4%);}
-  74.7% {transform: translateX(-66.4%);}
-  83% {transform: translateX(-83%);}
-  91.3% {transform: translateX(-83%);}
-  98% {transform: translateX(-83%);}
+    0% {transform: translateX(0%);}
+    8.3% {transform: translateX(0%);}
+    16.6% {transform: translateX(-16.6%);}
+    24.9% {transform: translateX(-16.6%);}
+    33.2% {transform: translateX(-33.2%);}
+    41.5% {transform: translateX(-33.2%);}
+    49.8% {transform: translateX(-49.8%);}
+    58.1% {transform: translateX(-49.8%);}
+    66.4% {transform: translateX(-66.4%);}
+    74.7% {transform: translateX(-66.4%);}
+    83% {transform: translateX(-83%);}
+    91.3% {transform: translateX(-83%);}
+    98% {transform: translateX(-83%);}
+}
+
+@media screen and (max-width: 1100px)
+{
+    #corps #actualités {
+        display: inline-block;
+        margin-right: 0;
+    }
+
+    .slideshow {
+        float: none;
+        width: auto;
+    }
+
+    #corps .texte, .slideshow {
+        margin: 5px 0px;
+    }
 }

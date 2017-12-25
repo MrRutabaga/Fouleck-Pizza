@@ -47,7 +47,7 @@
     position: absolute;
     display: inline;
     font-size: 20px;
-    margin-left: 320px;
+    margin-left: 310px;
     width: 280px;
     bottom: 20px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -179,5 +179,62 @@
 
     #corps .texte, .slideshow {
         margin: 5px 0px;
+    }
+
+    .slideshow-container > li h3 {
+        font-size: 5vw;
+        margin-top: 3vw;
+        margin-left: 3vw;
+        text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
+    }
+
+    .slideshow-container > li .ingredients {
+        font-size: 3vw;
+        padding-left: 3.5vw;
+    }
+
+    .slideshow-container > li #ingredients1, .slideshow-container > li #ingredients3, .slideshow-container > li #ingredients5 {
+        width: 4.5%;
+    }
+
+    .slideshow-container > li #ingredients2 {
+        width: 5.8%;
+    }
+
+    .slideshow-container > li #ingredients4 {
+        width: 5.3%;
+    }
+
+    .slideshow-container > li #ingredients6 {
+        width: 4.8%;
+    }
+
+    .slideshow-container > li h4 {
+        margin-left: 45vw;
+        font-size: 4vw;
+    }
+
+    .slideshow-container > li p {
+        margin-left: 47vw;
+        font-size: 3vw;
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slideshow-container > li h4 {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        opacity: 0;
+    }
+
+    .slideshow-container:hover > li h4 {
+        opacity: 0;
+    }
+
+    .slideshow-container > li p, .slideshow-container > li .ingredients {
+        display: none;
     }
 }

@@ -237,4 +237,9 @@
     .slideshow-container > li p, .slideshow-container > li .ingredients {
         display: none;
     }
+
+    .slideshow-container:hover {
+        animation-play-state: running;
+    }
+
 }

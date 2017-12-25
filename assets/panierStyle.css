@@ -1,0 +1,100 @@
+#corps {
+    text-align: left;
+}
+
+#corps #panier {
+    position: fixed;
+    top: 350px;
+    right: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: red;
+    box-shadow: 0px 0px 20px #AB0F00;
+    padding: 15px 20px 7px;
+    border-radius: 20px;
+}
+
+#corps #panier h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#corps #panier aside {
+    display: block;
+    opacity: 0;
+    transition: 0.5s;
+    overflow: hidden;
+    height: 0;
+}
+
+#corps #panier:hover aside {
+    opacity: 1;
+    height: auto;
+    padding-top: 10px;
+}
+
+#corps #panier h3 {
+    display: inline;
+    position: relative;
+    margin: 0;
+    margin-left: 50px;
+    font-size: 35px;
+    top: 25px;
+}
+
+#corps #panier a {
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+    border: 2px solid;
+    padding: 7px 10px 0px 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+#corps #panier a:hover {
+    color: rgb(255, 0, 0);
+}
+
+#corps #panier aside strong {
+    font-size: 50px;
+}
+
+#corps #panier:hover aside {
+    display: block;
+}
+
+#corps #panier i {
+    display: block;
+    text-align: center;
+}
+
+#corps .texte {
+    display: block;
+    text-align: center;
+    width: 700px;
+}
+
+#corps .texte h2 {
+    margin: 0;
+}
+
+#corps .texte .poubelle {
+    position: absolute;
+    margin-top: 150px;
+}
+
+#corps .texte img {
+    width: 700px;
+    display: inline;
+}
+
+#corps .texte form {
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 660px;
+}
+
+#corps .texte input {
+    width: 30px;
+}

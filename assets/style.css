@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-image: url("img/banniere_trop_styley.jpg");
+    background-image: url("img/banniere++.jpg");
 }
 
 header #top {
@@ -240,6 +240,11 @@ footer img {
 }
 
 @media screen and (max-width: 820px) {
+
+    header {
+        background-image: url("img/banniere--.jpg");
+    }
+
     header #top {
         position: relative;
         text-align: center;

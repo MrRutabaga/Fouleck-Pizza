@@ -20,7 +20,9 @@ body {
 }
 
 header {
-    background-image: url("img/banniere++.jpg");
+    background-image: url("img/banniere--.jpg");
+    background-size: 100%;
+    background-position: 0 -10vw;
 }
 
 header #top {
@@ -240,9 +242,9 @@ footer img {
 }
 
 @media screen and (max-width: 820px) {
-
     header {
-        background-image: url("img/banniere--.jpg");
+        background-size: 150%;
+        background-position: 50% 0;
     }
 
     header #top {
@@ -287,6 +289,10 @@ footer img {
 }
 
 @media screen and (max-width: 555px) {
+    header {
+        background-size: 200%;
+    }
+
     body {
         background-size: 1100px;
         margin-bottom: 25px;
@@ -311,7 +317,7 @@ footer img {
     }
 
     #search a {
-        padding: 6.2px 3.5vw;
+        padding: 6.2px 2.6vw;
     }
 
     #top aside {

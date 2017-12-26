@@ -1,0 +1,78 @@
+#corps {
+    text-align: center;
+}
+
+#corps .pizza {
+    display: inline-block;
+    margin: 20px 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 100, 100, 0.7);
+    font-style: normal;
+}
+
+#corps .pizza h2 {
+    margin: 0;
+    color: red;
+    margin-top: 10px;
+    font-size: 3.5vw;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+#corps .pizza img {
+    width: 45vw;
+}
+
+#corps .pizza h3 {
+    margin: 0;
+    color: red;
+    font-size: 2.5vw;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#corps .pizza strike {
+    text-shadow: none;
+    color: black;
+    font-size: 1.5vw;
+    position: relative;
+    bottom: 0.5vw;
+}
+
+@media screen and (max-width: 1115px) {
+    #corps .pizza h2 {
+        font-size: 2vw;
+        text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    }
+
+    #corps .pizza img {
+        width: 28vw;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    #corps .pizza h2 {
+        font-size: 3vw;
+        text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    }
+
+    #corps .pizza img {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    #corps .pizza {
+        display: block;
+        margin: 15px 0;
+    }
+
+    #corps .pizza h2 {
+        font-size: 7vw;
+        position: relative;
+        top: 7px;
+        text-shadow: -0.5vw 0 black, 0 0.5vw black, 0.5vw 0 black, 0 -0.5vw black;
+    }
+
+    #corps .pizza img {
+        width: 70vw;
+    }
+}

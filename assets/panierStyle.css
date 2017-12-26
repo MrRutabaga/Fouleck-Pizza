@@ -5,12 +5,14 @@
 #corps #panier {
     position: fixed;
     top: 350px;
-    right: 40px;
+    right: 2%;
     background-color: rgba(0, 0, 0, 0.8);
     color: red;
     box-shadow: 0px 0px 20px #AB0F00;
     padding: 15px 20px 7px;
     border-radius: 20px;
+    width: 40.7vw;
+    text-align: center;
 }
 
 #corps #panier h2 {
@@ -36,19 +38,16 @@
     display: inline;
     position: relative;
     margin: 0;
-    margin-left: 50px;
+    margin-right: 20%;
     font-size: 35px;
-    top: 25px;
+    bottom: 20px;
 }
 
 #corps #panier a {
     font-size: 30px;
-    text-align: center;
-    float: right;
-    margin-right: 50px;
+    display: inline-block;
     border: 2px solid;
     padding: 7px 10px 0px 5px;
-    margin-bottom: 10px;
     border-radius: 25px;
 }
 
@@ -72,28 +71,27 @@
 #corps .texte {
     display: block;
     text-align: center;
-    width: 700px;
+    width: 45vw;
     padding-top: 0;
 }
 
 #corps .texte h2 {
     margin: 0;
-    display: inline;
+    display: block;
     padding: 0 5px 2px;
     font-size: 40px;
     color: red;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
-#corps .texte .poubelle {
+#corps .texte .poubelle, #corps .texte form {
     display: block;
     position: absolute;
-    margin-top: 150px;
+    margin-top: 8vw;
 }
 
 #corps .texte img {
-    width: 700px;
-    display: inline;
+    width: 40vw;
 }
 
 #corps .texte h3 {
@@ -104,11 +102,91 @@
 }
 
 #corps .texte form {
-    position: absolute;
-    margin-top: -220px;
-    margin-left: 660px;
+    margin-left: 42vw;
 }
 
 #corps .texte input {
     width: 30px;
+}
+
+@media screen and (max-width: 1340px) {
+    #corps #panier h3 {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    #corps #panier {
+        position: static;
+        float: none;
+        display: block;
+        border-radius: 0 0 20px 20px;
+        width: auto;
+    }
+
+    #corps #panier h3 {
+        margin-right: 25%;
+    }
+
+    #corps .texte {
+        width: auto;
+    }
+
+    #corps .texte img {
+        width: 100%;
+    }
+
+    #corps .texte .poubelle, #corps .texte form {
+        margin-top: 20vw;
+    }
+
+    #corps .texte .poubelle i {
+        font-size: 7vw;
+    }
+
+    #corps .texte form {
+        margin-left: 0;
+        right: 4%;
+    }
+
+    #corps .texte input {
+        width: 4vw;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    #corps #panier h3, #corps #panier a {
+        font-size: 5vw;
+    }
+
+    #corps #panier h3 strong, #corps #panier a strong {
+        font-size: 8vw;
+    }
+
+    #corps #panier h3 {
+        margin-right: 5%;
+    }
+
+    #corps .texte h2 {
+        font-size: 6vw;
+        text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
+    }
+
+    #corps .texte h3 {
+        font-size: 5vw;
+        text-shadow: -0.3vw 0 black, 0 0.3vw black, 0.3vw 0 black, 0 -0.3vw black;
+    }
+
+    #corps .texte .poubelle, #corps .texte form {
+        margin-top: 16vw;
+    }
+
+    #corps .texte .poubelle {
+        margin-left: -2vw;
+    }
+
+    #corps .texte form {
+        right: 8%;
+    }
 }

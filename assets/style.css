@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-image: url("img/banniere--.jpg");
+    background-image: url("img/banniere.jpg");
     background-size: 100%;
     background-position: 0 -10vw;
 }
@@ -58,7 +58,6 @@ header #top {
 #search input {
     width: 430px;
     padding: 9px 15px;
-    border: solid;
     border: none;
     border-radius: 10px 0px 0px 10px;
 }

@@ -22,7 +22,7 @@ body {
 header {
     background-image: url("img/banniere.jpg");
     background-size: 100%;
-    background-position: 0 -10vw;
+    background-position: 0 -15vw;
 }
 
 header #top {
@@ -242,8 +242,8 @@ footer img {
 
 @media screen and (max-width: 820px) {
     header {
-        background-size: 150%;
-        background-position: 50% 0;
+        background-size: 900px;
+        background-position: 50% 0vw;
     }
 
     header #top {
@@ -288,10 +288,6 @@ footer img {
 }
 
 @media screen and (max-width: 555px) {
-    header {
-        background-size: 200%;
-    }
-
     body {
         background-size: 1100px;
         margin-bottom: 25px;

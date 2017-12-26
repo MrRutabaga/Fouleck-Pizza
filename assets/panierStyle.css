@@ -168,6 +168,12 @@
         margin-right: 5%;
     }
 
+    #corps #panier aside {
+        opacity: 1;
+        height: auto;
+        padding-top: 10px;
+    }
+
     #corps .texte h2 {
         font-size: 6vw;
         text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;

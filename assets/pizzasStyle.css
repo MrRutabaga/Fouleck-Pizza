@@ -151,6 +151,62 @@
     #corps .pizza img {
         width: 28vw;
     }
+
+    #corps .pizza #ingredients1 {
+        font-size: 1.4vw;
+        padding-left: 2vw;
+        margin-top: 1.5vw;
+        margin-left: 2.2vw;
+    }
+
+    #corps .pizza #ingredients2 {
+        font-size: 1.5vw;
+        padding-left: 2vw;
+        margin-top: 0.8vw;
+        margin-left: 2.3vw;
+    }
+
+    #corps .pizza #ingredients3 {
+        font-size: 1.4vw;
+        padding-left: 2vw;
+        margin-top: 2.2vw;
+        margin-left: 1.8vw;
+    }
+
+    #corps .pizza #ingredients4 {
+        font-size: 1.1vw;
+        padding-left: 1.5vw;
+        margin-top: 2.2vw;
+        margin-left: 1.2vw;
+    }
+
+    #corps .pizza #ingredients5 {
+        font-size: 1.4vw;
+        padding-left: 1.8vw;
+        margin-top: 1.5vw;
+        margin-left: 1.5vw;
+    }
+
+    #corps .pizza #ingredients6 {
+        font-size: 1.6vw;
+        padding-left: 1.8vw;
+        margin-top: 0.7vw;
+        margin-left: 3.5vw;
+    }
+
+    #corps .pizza #ingredients7 {
+        font-size: 1.4vw;
+        padding-left: 1.8vw;
+        margin-top: 0.2vw;
+        margin-left: 2.5vw;
+    }
+
+    #corps .pizza #ingredients8 {
+        font-size: 1.5vw;
+        padding-left: 1.8vw;
+        margin-top: 0.4vw;
+        margin-left: 0.8vw;
+    }
 }
 
 @media screen and (max-width: 913px) {
@@ -161,6 +217,62 @@
 
     #corps .pizza img {
         width: 40vw;
+    }
+
+    #corps .pizza #ingredients1 {
+        font-size: 2.2vw;
+        padding-left: 2.5vw;
+        margin-top: 1.5vw;
+        margin-left: 1.5vw;
+    }
+
+    #corps .pizza #ingredients2 {
+        font-size: 2.3vw;
+        padding-left: 3vw;
+        margin-top: 0.8vw;
+        margin-left: 2.5vw;
+    }
+
+    #corps .pizza #ingredients3 {
+        font-size: 2.1vw;
+        padding-left: 2.5vw;
+        margin-top: 2.5vw;
+        margin-left: 2vw;
+    }
+
+    #corps .pizza #ingredients4 {
+        font-size: 1.6vw;
+        padding-left: 2vw;
+        margin-top: 2.5vw;
+        margin-left: 2vw;
+    }
+
+    #corps .pizza #ingredients5 {
+        font-size: 2.1vw;
+        padding-left: 2.5vw;
+        margin-top: 2.5vw;
+        margin-left: 1.6vw;
+    }
+
+    #corps .pizza #ingredients6 {
+        font-size: 2.2vw;
+        padding-left: 2.5vw;
+        margin-top: 1.2vw;
+        margin-left: 6vw;
+    }
+
+    #corps .pizza #ingredients7 {
+        font-size: 1.9vw;
+        padding-left: 2.2vw;
+        margin-top: 0.8vw;
+        margin-left: 5vw;
+    }
+
+    #corps .pizza #ingredients8 {
+        font-size: 2.1vw;
+        padding-left: 2.5vw;
+        margin-top: 0.6vw;
+        margin-left: 1.7vw;
     }
 }
 
@@ -179,5 +291,60 @@
 
     #corps .pizza img {
         width: 70vw;
+    }
+
+    #corps .pizza #ingredients1 {
+        font-size: 4.2vw;
+        padding-left: 5vw;
+        padding-right: 2vw;
+        margin-left: 0;
+    }
+
+    #corps .pizza #ingredients2 {
+        font-size: 4vw;
+        padding-left: 5vw;
+        margin-top: 2vw;
+        margin-left: 5vw;
+    }
+
+    #corps .pizza #ingredients3 {
+        font-size: 4.7vw;
+        padding-left: 5.5vw;
+        margin-left: -3.5vw;
+    }
+
+    #corps .pizza #ingredients4 {
+        font-size: 3.5vw;
+        padding-left: 4.2vw;
+        margin-top: 3vw;
+        margin-left: -3.5vw;
+    }
+
+    #corps .pizza #ingredients5 {
+        font-size: 4.5vw;
+        padding-left: 5.5vw;
+        margin-top: 2vw;
+        margin-left: -3vw;
+    }
+
+    #corps .pizza #ingredients6 {
+        font-size: 4vw;
+        padding-left: 5vw;
+        margin-top: 2.5vw;
+        margin-left: 11vw;
+    }
+
+    #corps .pizza #ingredients7 {
+        font-size: 3.5vw;
+        padding-left: 4.5vw;
+        margin-top: 1vw;
+        margin-left: 7.5vw;
+    }
+
+    #corps .pizza #ingredients8 {
+        font-size: 3.8vw;
+        padding-left: 4.5vw;
+        margin-top: 0.6vw;
+        margin-left: 3vw;
     }
 }

@@ -129,6 +129,15 @@ header #user #connect {
     display: none;
 }
 
+header #user > a > span {
+    position: absolute;
+    color: #ff820a;
+    font-size: 30px;
+    margin-left: 35px;
+    margin-top: 23.5px;
+    transition: 0.5s;
+}
+
 header #user > a {
     display: inline;
     margin-right: 15px;
@@ -137,8 +146,13 @@ header #user > a {
     transition: 0.5s;
 }
 
+header #user > a:hover > span {
+    color: red;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
 header #user > a:hover {
-    color: #e26f00;
+    color: #d16600;
 }
 
 header nav {
@@ -335,6 +349,12 @@ footer img {
 
     header #user form {
         display: none;
+    }
+
+    header #user > a > span {
+        font-size: 7vw;
+        margin-top: 4.5vw;
+        margin-left: 9vw;
     }
 
     header nav a {

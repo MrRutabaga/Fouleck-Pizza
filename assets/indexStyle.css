@@ -108,12 +108,15 @@
     margin-bottom: 6px;
 }
 
-
 .slideshow img {
     width: 16.66%;
     height: auto;
     display: inline-block;
     text-align: center;
+}
+
+.slideshow-container strong {
+    color: red;
 }
 
 .slideshow-container:hover > li p {
@@ -123,8 +126,6 @@
 .slideshow-container:hover > li h4 {
     opacity: 1;
 }
-
-/*slideshow styles*/
 
 .slideshow {
     width: 625px;

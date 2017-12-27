@@ -10,6 +10,7 @@
 }
 
 #corps .pizza a {
+    font-style: normal;
     display: inline-block;
 }
 
@@ -19,7 +20,6 @@
     margin-top: 10px;
     font-size: 3.5vw;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
-    font-style: normal;
 }
 
 #corps .pizza img {
@@ -44,36 +44,83 @@
 
 #corps .pizza .ingredients {
     position: absolute;
-    display: inline;
-    font-size: 20px;
+    display: block;
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0px 20px #AB0F00;
-    padding: 5px 10px 5px 25px;
     color: red;
     text-align: left;
-    margin-top: 100px;
-    margin-left: 27px;
-    transform: scaleY(0);
-    transition: 0.8s;
-}
-
-#corps .pizza .ingredients:before {
-    content: "";
-    position: absolute;
-    right: 100%;
-    top: 43%;
-    width: 0;
-    height: 0;
-    border-top: 13px solid transparent;
-    border-right: 26px solid rgba(0, 0, 0, 0.7);
-    border-bottom: 13px solid transparent;
-}
-
-#corps .pizza .ingredients h4 {
-    font-family: MiraculousChristmas;
     margin: 0;
-    font-size: 50px;
-    margin-left: 50px;
+    padding: 0;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+#corps .pizza #ingredients1 {
+    font-size: 2.3vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    margin-top: 2vw;
+    margin-left: 3.5vw;
+}
+
+#corps .pizza #ingredients2 {
+    font-size: 2.6vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 3.2vw;
+}
+
+#corps .pizza #ingredients3 {
+    font-size: 2.3vw;
+    padding-top: 0.7vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    margin-top: 3vw;
+    margin-left: 3.2vw;
+}
+
+#corps .pizza #ingredients4 {
+    font-size: 1.8vw;
+    padding-left: 2.2vw;
+    padding-right: 1vw;
+    margin-top: 2.5vw;
+    margin-left: 2.2vw;
+}
+
+#corps .pizza #ingredients5 {
+    font-size: 2.3vw;
+    padding-top: 0.7vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+}
+
+#corps .pizza #ingredients6 {
+    font-size: 2.6vw;
+    padding-top: 0.7vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    margin-top: 1vw;
+    margin-left: 5.5vw;
+}
+
+#corps .pizza #ingredients7 {
+    font-size: 2.3vw;
+    padding-top: 0.7vw;
+    padding-left: 3vw;
+    padding-right: 1.5vw;
+    margin-top: 0.3vw;
+    margin-left: 3.8vw;
+}
+
+#corps .pizza #ingredients8 {
+    font-size: 2.3vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    margin-top: 0.3vw;
+    margin-left: 3vw;
 }
 
 #corps .pizza .ingredients ul {
@@ -82,7 +129,7 @@
 }
 
 #corps .pizza:hover .ingredients {
-    transform: scaleY(1);
+    transform: scale(1);
 }
 
 #corps .pizza .ingredients li:first-line {

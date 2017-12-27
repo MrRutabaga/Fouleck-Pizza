@@ -7,7 +7,10 @@
     margin: 20px 15px;
     border-radius: 20px;
     background-color: rgba(255, 100, 100, 0.7);
-    font-style: normal;
+}
+
+#corps .pizza a {
+    display: inline-block;
 }
 
 #corps .pizza h2 {
@@ -16,6 +19,7 @@
     margin-top: 10px;
     font-size: 3.5vw;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    font-style: normal;
 }
 
 #corps .pizza img {
@@ -29,12 +33,66 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#corps .pizza strike {
+#corps .pizza .strike {
+    text-decoration: line-through;
     text-shadow: none;
     color: black;
     font-size: 1.5vw;
     position: relative;
     bottom: 0.5vw;
+}
+
+#corps .pizza .ingredients {
+    position: absolute;
+    display: inline;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 20px #AB0F00;
+    padding: 5px 10px 5px 25px;
+    color: red;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 27px;
+    transform: scaleY(0);
+    transition: 0.8s;
+}
+
+#corps .pizza .ingredients:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 43%;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 13px solid transparent;
+}
+
+#corps .pizza .ingredients h4 {
+    font-family: MiraculousChristmas;
+    margin: 0;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+#corps .pizza .ingredients ul {
+    margin: 0;
+    padding: 0;
+}
+
+#corps .pizza:hover .ingredients {
+    transform: scaleY(1);
+}
+
+#corps .pizza .ingredients li:first-line {
+    color: white;
+}
+
+#corps .pizza .ingredients li strong {
+    color: red;
+    font-size: 200%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 @media screen and (max-width: 1115px) {

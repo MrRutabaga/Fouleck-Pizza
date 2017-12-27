@@ -1,0 +1,12 @@
+article img {
+  width: 400px;
+  position: relative;
+  display: inline-block;
+}
+
+article ul {
+  max-width: 300px;
+  display: inline-block;
+  text-align: right;
+  margin-top: none;
+}

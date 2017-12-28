@@ -1,1 +1,11 @@
-    
+#corps .texte h2 {
+    font-size: 50px;
+    margin: 10px 0 0;
+    color: red;
+    text-shadow: -0.1vw 0 black, 0.1vw 0 black, 0 0.1vw black, 0 -0.1vw black;
+}
+
+#corps .texte h3.petit {
+    font-size: 15px;
+    margin: 0 0 5px;
+}

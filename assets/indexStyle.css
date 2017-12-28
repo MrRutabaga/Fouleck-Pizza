@@ -115,10 +115,6 @@
     text-align: center;
 }
 
-.slideshow-container strong {
-    color: red;
-}
-
 .slideshow-container:hover > li p {
     bottom: 100px;
 }

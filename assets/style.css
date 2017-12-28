@@ -209,6 +209,8 @@ header nav .text a:hover {
     font-weight: bold;
     font-family: MiraculousChristmas;
     font-size: larger;
+    color: red;
+    text-shadow: -1px 0 black, 1px 0 black, 0 1px black, 0 -1px black;
 }
 
 #corps .petit {

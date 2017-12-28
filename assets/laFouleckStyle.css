@@ -1,18 +1,67 @@
-article img {
-  width: 400px;
-  position: relative;
-  display: inline-block;
+#corps {
+    text-align: left;
+    margin: 0 2vw;
 }
 
-article ul {
-  max-width: 300px;
-  display: inline-block;
-  text-align: right;
-  margin-top: none;
+#corps #pizza {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
 }
 
-/* temporaire */
-#corps .pizza .ingredients:before {
+#corps #pizza h2 {
+    color: red;
+    font-size: 3.5vw;
+    margin-top: 10px;
+    text-shadow: 2px 0 black, -2px 0 black, 0 -2px black, 0 2px black;
+    margin-bottom: 0;
+}
+
+#corps #pizza .pizza img {
+    width: 100%;
+}
+
+#corps #pizza .pizza .ingredients {
+    position: absolute;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 20px #AB0F00;
+    color: red;
+    text-align: left;
+    margin-top: 1.5vw;
+    font-size: 1.8vw;
+    transform: scaleY(0);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#corps #pizza .pizza .ingredients h3 {
+    margin: 0;
+    text-align: center;
+    font-family: MiraculousChristmas;
+    font-size: 4vw;
+    text-shadow: 3px 0 black, -3px 0 black, 0 -3px black, 0 3px black;
+}
+
+#corps #pizza .pizza .ingredients ul {
+    margin: 0;
+    padding: 5px 10px;
+    padding-left: 2.3vw;
+}
+
+#corps #pizza .pizza .ingredients li:first-line {
+    color: white;
+}
+
+#corps #pizza .pizza .ingredients li strong {
+    text-shadow: 1px 0 white, -1px 0 white, 0 -1px white, 0 1px white;
+}
+
+#corps #pizza .pizza:hover .ingredients {
+    transform: scaleY(1);
+}
+
+#corps #pizza .pizza .ingredients:before {
     content: "";
     position: absolute;
     right: 100%;
@@ -22,4 +71,172 @@ article ul {
     border-top: 13px solid transparent;
     border-right: 26px solid rgba(0, 0, 0, 0.7);
     border-bottom: 13px solid transparent;
+}
+
+#corps #pizza a {
+    position: relative;
+    border: none;
+    right: 6px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #ff7e00;
+    border-radius: 15px 0 15px;
+    transition: 0.5s;
+    font-size: 1.5vw;
+    font-family: Comfortaa;
+    font-style: normal;
+}
+
+#corps #pizza a:hover {
+    background-color: #e26f00;
+    cursor: pointer;
+}
+
+#corps #pizza p {
+    font-size: 1.2vw;
+}
+
+#corps #commentaires {
+    text-align: center;
+    float: right;
+    width: 45%;
+}
+
+#corps #commentaires h2 {
+    font-size: 3vw;
+    margin: 15px 0 0;
+}
+
+#corps #commentaires ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#corps #commentaires li::after {
+    content: "-----------------------------------";
+}
+
+#corps #commentaires li h3 {
+    font-size: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: MiraculousChristmas;
+}
+
+#corps #commentaires li h4 {
+    font-size: 1.5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#corps #commentaires li p {
+    margin: 5px 0;
+    font-size: 1.3vw;
+}
+
+#corps #commentaires form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#corps #commentaires form button {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #ff7e00;
+    border-radius: 15px 0 15px;
+    transition: 0.5s;
+    font-size: 1vw;
+    font-family: Comfortaa;
+}
+
+#corps #commentaires form button:hover {
+    background-color: #e26f00;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 930px) {
+    #corps #pizza, #corps #commentaires {
+        float: none;
+        display: block;
+        width: auto;
+    }
+
+    #corps #pizza h2 {
+        font-size: 7vw;
+    }
+
+    #corps #pizza .pizza .ingredients {
+        margin-top: 7vw;
+        left: 28vw;
+        font-size: 3vw;
+    }
+
+    #corps #pizza .pizza .ingredients h3 {
+        font-size: 7vw;
+    }
+
+    #corps #pizza .pizza .ingredients ul {
+        padding-left: 3.5vw;
+    }
+
+    #corps #pizza .pizza .ingredients:before {
+        display: none;
+    }
+
+    #corps #pizza a {
+        font-size: 3vw;
+        padding: 1vw 2vw;
+    }
+
+    #corps #pizza p {
+        font-size: 2.5vw;
+    }
+
+    #corps #commentaires h2 {
+        font-size: 6.5vw;
+    }
+
+    #corps #commentaires li h3 {
+        font-size: 6vw;
+    }
+
+    #corps #commentaires li h4 {
+        font-size: 3vw;
+    }
+
+    #corps #commentaires li p {
+        font-size: 2.5vw;
+    }
+
+    #corps #commentaires form textarea {
+        width: 50vw;
+    }
+
+    #corps #commentaires form button {
+        font-size: 2vw;
+        padding: 1vw 2vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #corps #pizza p {
+        font-size: 15px;
+    }
+
+    #corps #commentaires li h3 {
+        font-size: 30px;
+    }
+
+    #corps #commentaires li h4 {
+        font-size: 12px;
+    }
+
+    #corps #commentaires li p {
+        font-size: 15px;
+    }
 }

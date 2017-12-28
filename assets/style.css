@@ -131,7 +131,7 @@ header #user #connect {
 
 header #user > a > span {
     position: absolute;
-    color: #ff820a;
+    color: red;
     font-size: 30px;
     margin-left: 35px;
     margin-top: 23.5px;

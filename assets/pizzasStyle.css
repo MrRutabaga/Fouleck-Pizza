@@ -293,58 +293,7 @@
         width: 70vw;
     }
 
-    #corps .pizza #ingredients1 {
-        font-size: 4.2vw;
-        padding-left: 5vw;
-        padding-right: 2vw;
-        margin-left: 0;
-    }
-
-    #corps .pizza #ingredients2 {
-        font-size: 4vw;
-        padding-left: 5vw;
-        margin-top: 2vw;
-        margin-left: 5vw;
-    }
-
-    #corps .pizza #ingredients3 {
-        font-size: 4.7vw;
-        padding-left: 5.5vw;
-        margin-left: -3.5vw;
-    }
-
-    #corps .pizza #ingredients4 {
-        font-size: 3.5vw;
-        padding-left: 4.2vw;
-        margin-top: 3vw;
-        margin-left: -3.5vw;
-    }
-
-    #corps .pizza #ingredients5 {
-        font-size: 4.5vw;
-        padding-left: 5.5vw;
-        margin-top: 2vw;
-        margin-left: -3vw;
-    }
-
-    #corps .pizza #ingredients6 {
-        font-size: 4vw;
-        padding-left: 5vw;
-        margin-top: 2.5vw;
-        margin-left: 11vw;
-    }
-
-    #corps .pizza #ingredients7 {
-        font-size: 3.5vw;
-        padding-left: 4.5vw;
-        margin-top: 1vw;
-        margin-left: 7.5vw;
-    }
-
-    #corps .pizza #ingredients8 {
-        font-size: 3.8vw;
-        padding-left: 4.5vw;
-        margin-top: 0.6vw;
-        margin-left: 3vw;
+    #corps .pizza .ingredients {
+        display: none;
     }
 }

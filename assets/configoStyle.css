@@ -1,0 +1,16 @@
+#corps .texte li img {
+  width: 20vw;
+}
+
+#corps .texte {
+  display: block;
+  width: auto;
+}
+
+#corps .texte ul {
+  list-style: none;
+}
+
+#corps .texte li {
+  display: inline;
+}

@@ -1,15 +1,15 @@
-#corps #titre {
+#corps #head {
     display: block;
 }
 
-#corps #titre h2 {
+#corps #head h2 {
     font-size: 5vw;
     margin: 10px 0 0;
     color: red;
     text-shadow: -0.1vw 0 black, 0.1vw 0 black, 0 0.1vw black, 0 -0.1vw black;
 }
 
-#corps #titre h4.petit {
+#corps #head h4.petit {
     font-size: 1.5vw;
     margin: 0 0 5px;
 }
@@ -123,13 +123,13 @@
         margin: 20px auto;
     }
 
-    #corps #titre h4.petit {
+    #corps #head h4.petit {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width: 660px) {
-    #corps #titre h2 {
+    #corps #head h2 {
         font-size: 35px;
     }
 

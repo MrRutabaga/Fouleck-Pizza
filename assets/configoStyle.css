@@ -2,17 +2,17 @@
     display: block;
 }
 
-#corps #titre h2 {
+#corps #head h2 {
     font-size: 3vw;
     margin: 10px 0;
 }
 
-#corps #titre p {
+#corps #head p {
     font-size: 1.5vw;
     margin: 5px 0;
 }
 
-#corps #titre p.grand {
+#corps #head p.grand {
     font-size: 2.5vw;
     margin: 10px 0;
 }
@@ -77,7 +77,7 @@
 }
 
 @media screen and (max-width: 1320px) {
-    #corps #titre p {
+    #corps #head p {
         font-size: 20px;
     }
 
@@ -96,15 +96,15 @@
 }
 
 @media screen and (max-width: 790px) {
-    #corps #titre h2 {
+    #corps #head h2 {
         font-size: 25px;
     }
 
-    #corps #titre p {
+    #corps #head p {
         font-size: 15px;
     }
 
-    #corps #titre p.grand {
+    #corps #head p.grand {
         font-size: 25px;
     }
 

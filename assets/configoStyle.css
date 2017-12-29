@@ -1,16 +1,131 @@
-#corps .texte li img {
-    width: 20vw;
-}
-
 #corps .texte {
     display: block;
-    width: auto;
 }
 
-#corps .texte ul {
+#corps #titre h2 {
+    font-size: 3vw;
+    margin: 10px 0;
+}
+
+#corps #titre p {
+    font-size: 1.5vw;
+    margin: 5px 0;
+}
+
+#corps #titre p.grand {
+    font-size: 2.5vw;
+    margin: 10px 0;
+}
+
+#corps .ingredients {
+    display: inline-block;
+    width: 45vw;
+    vertical-align: middle;
+}
+
+#corps .texte h3 {
+    font-size: 2.5vw;
+    margin: 10px 0;
+}
+
+#corps .ingredients ul {
     list-style: none;
+    padding: 0;
 }
 
-#corps .texte li {
-    display: inline;
+#corps .ingredients li {
+    display: inline-block;
+}
+
+#corps .ingredients li img {
+    margin-top: 10px;
+    width: 8vw;
+}
+
+#corps .ingredients li span {
+    display: block;
+    font-size: 1.3vw;
+}
+
+#corps #nom input {
+    display: block;
+    margin: auto;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2vw;
+}
+
+#corps #nom button {
+    width: 60vw;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-family: Comfortaa;
+    font-size: 1.5vw;
+}
+
+#corps #nom button:hover {
+    box-shadow: 0 0 20px #AB0F00;
+    color: #AB0F00;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1320px) {
+    #corps #titre p {
+        font-size: 20px;
+    }
+
+    #corps .ingredients {
+        display: block;
+        width: auto;
+    }
+
+    #corps .ingredients li img {
+        width: 17vw;
+    }
+
+    #corps .ingredients li span {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    #corps #titre h2 {
+        font-size: 25px;
+    }
+
+    #corps #titre p {
+        font-size: 15px;
+    }
+
+    #corps #titre p.grand {
+        font-size: 25px;
+    }
+
+    #corps .texte h3 {
+        font-size: 20px;
+    }
+
+    #corps .ingredients li img {
+        width: 100px;
+    }
+
+    #corps .ingredients li span {
+        font-size: 15px;
+    }
+
+    #corps #nom input {
+        font-size: 12px;
+        width: 70vw;
+    }
+
+    #corps #nom button {
+        font-size: 15px;
+    }
 }

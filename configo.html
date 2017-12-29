@@ -48,59 +48,61 @@
             </nav>
         </header>
         <div id="corps">
-          <article class="texte">
-            <h1>Bienvenue dans le configo<strong>Fouleck</strong></h1>
-            <p>Parce qu'on est jamais mieux servis que par soi-même ,ici tu peux venir créer ta propre pizza de Fouleck, pour faire ressortir ta Fouleckitude comme jamais.</p>
-            <p>Epatez-nous avec vos plus belle config de pizza, et les meilleurs pourront même figurer dans la carte à l'avenir.</p>
-            <p>A vos clavier</p>
-          </article>
-          <article class="texte">
-            <h2>Quelle base veux-tu petit <strong>Fouleck</strong> ?</h1>
-            <form action="enDeveloppement.html">
-              <ul>
-                <li><label><img src="assets/img/base_tomate.jpg" alt="base tomate"><input name="base" type=radio value="t"> base tomate</label></li>
-                <li><label><img src="assets/img/crème.jpg" alt="base crème"><input name="base" type=radio value="c"> base crème</label></li>
-              </ul>
-            </form>
-          </article>
-          <article class="texte">
-            <h3>Quelle viande mon fouleck ?</h2>
-            <form action="enDeveloppement.html">
-              <ul>
-                <li><label><img src="assets/img/merguez.jpg" alt="viande merguez"><input name="viande" type=radio value="m"> merguez</label></li>
-                <li><label><img src="assets/img/bolognaise.jpg" alt="viande bolognaise"><input name="viande" type=radio value="b"> bolognaise</label></li>
-                <li><label><img src="assets/img/escalope.jpeg" alt="viande d'escalope"><input name="viande" type=radio value="v"> escalope</label></li>
-                <li><label><img src="assets/img/chorizo.jpg" alt="viande chorizo"><input name="viande" type=radio value="c"> chorizo</label></li>
-                <li><label><img src="assets/img/kebab.jpg" alt="viande de kebab"><input name="viande" type=radio value="k"> kebab</label></li>
-              </ul>
-            </form>
-          </article>
-          <article class="texte">
-            <h4>Quel fromage de fouleck choisis-tu ?</h3>
-            <form action="enDeveloppement.html">
-              <ul>
-                <li><label><img src="assets/img/cheddar.jpg" alt="fromage cheddar"><input name="fromage" type=radio value="ched"> cheddar</label></li>
-                <li><label><img src="assets/img/chèvre.jpg" alt="fromage chèvre"><input name="fromage" type=radio value="chev"> chèvre</label></li>
-                <li><label><img src="assets/img/raclette.jpg" alt="fromage raclette"><input name="fromage" type=radio value="racl"> raclette</label></li>
-                <li><label><img src="assets/img/parmesans.jpg" alt="fromage parmesans"><input name="fromage" type=radio value="parm"> parmesans</label></li>
-              </ul>
-            </form>
-          </article>
-          <article class="texte">
-            <h5>Un petit légume pour garder sa Fouleckitude, que choisis-tu ?</h4>
-            <form action="enDeveloppement.html">
-              <ul>
-                <li><label><img src="assets/img/poivrons.jpeg" alt="légume poivrons"><input name="légume" type=radio value="poiv"> poivrons</label></li>
-                <li><label><img src="assets/img/tomate.jpg" alt="légume tomate"><input name="légume" type=radio value="toma"> tomate</label></li>
-                <li><label><img src="assets/img/oignons.jpg" alt="légume oignons"><input name="légume" type=radio value="oign"> oignions</label></li>
-              </ul>
-            </form>
-          </article>
-          <article class="texte">
-            <p>Donne un nom de Fouleck à ta pizza</p>
-            <form action="panier.html">
-              <input name="nom" type="text">
-              <button>Ajouter au panier</button>
+            <article class="texte" id="titre">
+                <h2>Bienvenue dans le <strong>ConfigoFouleck !</strong></h2>
+                <p>Parce que l'on est jamais mieux servis que par soi-même, c'est ici que tu peux venir créer ta propre pizza de <strong>Fouleck</strong> afin de faire ressortir ta <strong>Fouleckitude</strong> comme jamais !</p>
+                <p>Épatez-nous avec vos plus belles configs de pizza, et les meilleurs pourront même figurer dans la carte à l'avenir !</p>
+                <p class="grand"><strong>À vos clavier !</strong></p>
+            </article>
+            <article class="texte ingredients">
+                <h3>Quelle base veux-tu petit <strong>Fouleck ?</strong></h3>
+                <form action="enDeveloppement.html">
+                    <ul>
+                        <li><label for="b_tomate"><img src="assets/img/base_tomate.jpg" alt="base tomate"><span>Base tomate</span></label><input name="base" type="radio" id="b_tomate"></li>
+                        <li><label for="b_crème"><img src="assets/img/crème.jpg" alt="base crème"><span>Base crème</span></label><input name="base" type="radio" id="b_crème"></li>
+                    </ul>
+                </form>
+            </article>
+            <article class="texte ingredients">
+                <h3>Quelle viande mon <strong>Fouleck ?</strong></h3>
+                <form action="enDeveloppement.html">
+                    <ul>
+                        <li><label for="merguez"><img src="assets/img/merguez.jpg" alt="viande merguez"><span>Merguez</span></label><input name="viande" type="radio" id="merguez"></li>
+                        <li><label for="bolognaise"><img src="assets/img/bolognaise.jpg" alt="viande bolognaise"><span>Bolognaise</span></label><input name="viande" type="radio" id="bolognaise"></li>
+                        <li><label for="escalope"><img src="assets/img/escalope.jpeg" alt="viande d'escalope"><span>Escalope</span></label><input name="viande" type="radio" id="escalope"></li>
+                        <li><label for="chorizo"><img src="assets/img/chorizo.jpg" alt="viande chorizo"><span>Chorizo</span></label><input name="viande" type="radio" id="chorizo"></li>
+                        <li><label for="kebab"><img src="assets/img/kebab.jpg" alt="viande de kebab"><span>Kebab</span></label><input name="viande" type="radio" id="kebab"></li>
+                    </ul>
+                </form>
+            </article>
+            <article class="texte ingredients">
+                <h3>Quel fromage de <strong>Fouleck</strong> choisis-tu ?</h3>
+                <form action="enDeveloppement.html">
+                    <ul>
+                        <li><label for="cheddar"><img src="assets/img/cheddar.jpg" alt="fromage cheddar"><span>Cheddar</span></label><input name="fromage" type="radio" id="cheddar"></li>
+                        <li><label for="chèvre"><img src="assets/img/chèvre.jpg" alt="fromage chèvre"><span>Chèvre</span></label><input name="fromage" type="radio" id="chèvre"></li>
+                        <li><label for="raclette"><img src="assets/img/raclette.jpg" alt="fromage raclette"><span>Raclette</span></label><input name="fromage" type="radio" id="raclette"></li>
+                        <li><label for="parmesan"><img src="assets/img/parmesans.jpg" alt="fromage parmesans"><span>Parmesan</span></label><input name="fromage" type="radio" id="parmesan"></li>
+                    </ul>
+                </form>
+            </article>
+            <article class="texte ingredients">
+                <h3>Un petit légume pour garder sa <strong>Fouleckitude</strong>, que choisis-tu ?</h3>
+                <form action="enDeveloppement.html">
+                    <ul>
+                        <li><label for="poivrons"><img src="assets/img/poivrons.jpeg" alt="légume poivrons"><span>Poivrons</span></label><input name="légume" type="radio" id="poivrons"></li>
+                        <li><label for="tomates"><img src="assets/img/tomate.jpg" alt="légume tomate"><span>Tomates</span></label><input name="légume" type="radio" id="tomates"></li>
+                        <li><label for="oignons"><img src="assets/img/oignons.jpg" alt="légume oignons"><span>Oignions</span></label><input name="légume" type="radio" id="oignons"></li>
+                    </ul>
+                </form>
+            </article>
+            <article class="texte" id="nom">
+                <h3>Donne un nom de <strong>Fouleck</strong> à ta pizza !</h3>
+                <form action="panier.html">
+                    <input type="text" placeholder="Le nom de ta pizza mon Fouleck">
+                    <button>Ajouter au panier</button>
+                </form>
+            </article>
         </div>
         <footer>
             <ul>
